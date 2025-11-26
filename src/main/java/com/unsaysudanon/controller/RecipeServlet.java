@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 @WebServlet(name = "RecipeServlet", urlPatterns = { "/recipes" })
 public class RecipeServlet extends HttpServlet {
@@ -26,6 +27,10 @@ public class RecipeServlet extends HttpServlet {
         recipeDatabase = new JsonRecipeDatabase();
         recipeFinder = new RecipeFinder();
         allRecipes = recipeDatabase.loadRecipes();
+
+        // Load unique ingredients for autosuggest
+        Set<String> allIngredients = recipeDatabase.getAllUniqueIngredients();
+        getServletContext().setAttribute("allIngredients", allIngredients);
     }
 
     @Override
@@ -41,16 +46,24 @@ public class RecipeServlet extends HttpServlet {
         if ("add".equals(action)) {
             String ingredient = req.getParameter("ingredient");
             if (ingredient != null && !ingredient.trim().isEmpty()) {
-                userIngredients.add(ingredient.trim());
+                // Prevent duplicates
+                String trimmed = ingredient.trim();
+                boolean exists = userIngredients.stream().anyMatch(i -> i.equalsIgnoreCase(trimmed));
+                if (!exists) {
+                    userIngredients.add(trimmed);
+                }
             }
             resp.sendRedirect("index.jsp");
         } else if ("search".equals(action)) {
-            List<Recipe> matches = recipeFinder.findMatches(userIngredients, allRecipes);
+            String category = req.getParameter("category");
+            List<RecipeMatch> matches = recipeFinder.findMatches(userIngredients, allRecipes, category);
             session.setAttribute("matches", matches);
+            session.setAttribute("selectedCategory", category);
             resp.sendRedirect("results.jsp");
         } else if ("clear".equals(action)) {
             session.removeAttribute("userIngredients");
             session.removeAttribute("matches");
+            session.removeAttribute("selectedCategory");
             resp.sendRedirect("index.jsp");
         } else {
             resp.sendRedirect("index.jsp");

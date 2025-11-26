@@ -6,17 +6,18 @@ public class Recipe {
     private String name;
     private List<String> ingredients;
     private List<String> instructions;
+    private String category;
 
     public Recipe() {
     }
 
-    public Recipe(String name, List<String> ingredients, List<String> instructions) {
+    public Recipe(String name, List<String> ingredients, List<String> instructions, String category) {
         this.name = name;
         this.ingredients = ingredients;
         this.instructions = instructions;
+        this.category = category;
     }
 
-    //ENCAPSULATION
     public String getName() {
         return name;
     }
@@ -39,5 +40,13 @@ public class Recipe {
 
     public void setInstructions(List<String> instructions) {
         this.instructions = instructions;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 }

@@ -2,6 +2,12 @@
 
 **Unsay Sud-anon** (Cebuano for "What's the dish?") is a dynamic web application that helps users find Filipino recipes based on the ingredients they have at home.
 
+## 🌟 New Features
+*   **Smart Scoring**: Recipes are ranked by match percentage. See exactly how close you are to a full dish!
+*   **Autosuggest**: Start typing an ingredient, and the app will suggest available options from the database.
+*   **Category Filtering**: Narrow down your search by Meat, Seafood, Vegetable, Poultry, or Dessert.
+*   **"See More"**: High-scoring matches are shown first; lower scores are tucked away for a cleaner view.
+
 ## 🛠️ Tech Stack
 
 *   **Backend**: Java (JDK 17+), Jakarta EE Servlets
@@ -18,70 +24,34 @@ Unsay_Sud-anon/
 │   ├── main/
 │   │   ├── java/com/unsaysudanon/
 │   │   │   ├── controller/
-│   │   │   │   └── RecipeServlet.java      # Main Controller (Handles HTTP requests)
+│   │   │   │   └── RecipeServlet.java      # Main Controller
 │   │   │   └── model/
-│   │   │       ├── Recipe.java             # Data Model (POJO)
-│   │   │       ├── RecipeDatabase.java     # Interface for data loading
-│   │   │       ├── JsonRecipeDatabase.java # Implementation (Loads recipes.json)
-│   │   │       └── RecipeFinder.java       # Logic for matching ingredients
+│   │   │       ├── Recipe.java             # Data Model
+│   │   │       ├── RecipeMatch.java        # DTO for Scored Matches
+│   │   │       ├── RecipeDatabase.java     # Interface
+│   │   │       ├── JsonRecipeDatabase.java # Data Loader
+│   │   │       └── RecipeFinder.java       # Matching & Scoring Logic
 │   │   ├── resources/
-│   │   │   └── recipes.json                # Database of Filipino recipes
+│   │   │   └── recipes.json                # Database of 40+ Filipino recipes
 │   │   └── webapp/
 │   │       ├── WEB-INF/
 │   │       │   └── web.xml                 # Deployment Descriptor
-│   │       ├── index.jsp                   # Input Page (Add ingredients)
-│   │       ├── results.jsp                 # Results Page (View matches)
+│   │       ├── index.jsp                   # Input Page (Autosuggest + Filter)
+│   │       ├── results.jsp                 # Results Page (Scored Cards)
 │   │       └── details.jsp                 # Recipe Details Page
 └── pom.xml                                 # Maven Dependencies
 ```
 
-## 🔄 Data Flow
-
-The application follows the **Model-View-Controller (MVC)** pattern:
-
-1.  **Initialization**: On startup, `RecipeServlet` initializes `JsonRecipeDatabase`, which reads and parses `recipes.json` into a list of `Recipe` objects.
-2.  **Input (View -> Controller)**:
-    *   User enters an ingredient on `index.jsp`.
-    *   Form submits to `RecipeServlet` (`action=add`).
-    *   Servlet adds the ingredient to the User's **Session**.
-3.  **Processing (Controller -> Model)**:
-    *   User clicks "Find Recipes".
-    *   Servlet calls `RecipeFinder.findMatches()`.
-    *   **Logic**: The system checks if a recipe contains **All or Most (>= 50%)** of the user's ingredients.
-4.  **Output (Controller -> View)**:
-    *   Matching recipes are stored in the Session.
-    *   User is redirected to `results.jsp` to see the cards.
-    *   Clicking a recipe forwards to `details.jsp` to show full instructions.
-
 ## 🚀 Setup & Installation
 
-### Prerequisites
-*   **Java Development Kit (JDK)**: Version 17 or higher.
-*   **Apache Maven**: For building the project.
-*   **Servlet Container**: Apache Tomcat 10+ (Must support Jakarta EE 6.0+).
-
-### How to Run
-
-1.  **Clone the repository** (or download the source).
-2.  **Build the project**:
-    Open a terminal in the project root and run:
+1.  **Clone & Build**:
     ```bash
     mvn clean package
     ```
-    This will generate a `.war` file in the `target/` directory (e.g., `Unsay_Sud-anon-1.0-SNAPSHOT.war`).
-
-3.  **Deploy to Tomcat**:
-    *   Copy the generated `.war` file to your Tomcat's `webapps` folder.
-    *   Start (or restart) your Tomcat server.
-
-4.  **Access the App**:
-    Open your web browser and navigate to:
-    ```
-    http://localhost:8080/Unsay_Sud-anon-1.0-SNAPSHOT/
-    ```
-    *(Note: The URL depends on the name of your WAR file and Tomcat configuration).*
+2.  **Deploy**: Copy the `.war` file to your Tomcat `webapps` folder.
+3.  **Run**: Start Tomcat and visit `http://localhost:8080/Unsay_Sud-anon-1.0-SNAPSHOT/`.
 
 ## 📝 Usage
-1.  **Add Ingredients**: Type an ingredient (e.g., "Pork", "Vinegar") and press Enter or click "Add".
-2.  **Find Matches**: Once you have added at least 3 ingredients, click "Find Recipes".
-3.  **Cook**: Click "View Recipe" to see how to make the dish!
+1.  **Filter (Optional)**: Select a category (e.g., "Meat").
+2.  **Add Ingredients**: Type to see suggestions (e.g., "Pork", "Soy Sauce").
+3.  **Find Matches**: Click "Find Recipes" to see your scored results.

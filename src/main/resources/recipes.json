@@ -1,6 +1,7 @@
 [
     {
         "name": "Adobo",
+        "category": "Meat",
         "ingredients": [
             "Pork",
             "Vinegar",
@@ -19,6 +20,7 @@
     },
     {
         "name": "Sinigang",
+        "category": "Meat",
         "ingredients": [
             "Pork",
             "Tamarind",
@@ -38,6 +40,7 @@
     },
     {
         "name": "Tortang Talong",
+        "category": "Vegetable",
         "ingredients": [
             "Eggplant",
             "Egg",
@@ -55,6 +58,7 @@
     },
     {
         "name": "Kare-Kare",
+        "category": "Meat",
         "ingredients": [
             "Oxtail",
             "Peanut Butter",
@@ -74,6 +78,7 @@
     },
     {
         "name": "Tinola",
+        "category": "Poultry",
         "ingredients": [
             "Chicken",
             "Ginger",
@@ -92,6 +97,7 @@
     },
     {
         "name": "Bistek Tagalog",
+        "category": "Meat",
         "ingredients": [
             "Beef",
             "Soy Sauce",
@@ -110,6 +116,7 @@
     },
     {
         "name": "Pinakbet",
+        "category": "Vegetable",
         "ingredients": [
             "Pork",
             "Squash",
@@ -129,6 +136,7 @@
     },
     {
         "name": "Menudo",
+        "category": "Meat",
         "ingredients": [
             "Pork",
             "Liver",
@@ -148,6 +156,7 @@
     },
     {
         "name": "Caldereta",
+        "category": "Meat",
         "ingredients": [
             "Beef",
             "Tomato Sauce",
@@ -167,6 +176,7 @@
     },
     {
         "name": "Afritada",
+        "category": "Poultry",
         "ingredients": [
             "Chicken",
             "Tomato Sauce",
@@ -185,6 +195,7 @@
     },
     {
         "name": "Mechado",
+        "category": "Meat",
         "ingredients": [
             "Beef",
             "Tomato Sauce",
@@ -203,6 +214,7 @@
     },
     {
         "name": "Laing",
+        "category": "Vegetable",
         "ingredients": [
             "Taro Leaves",
             "Coconut Milk",
@@ -221,6 +233,7 @@
     },
     {
         "name": "Bicol Express",
+        "category": "Meat",
         "ingredients": [
             "Pork",
             "Coconut Milk",
@@ -239,6 +252,7 @@
     },
     {
         "name": "Bulalo",
+        "category": "Meat",
         "ingredients": [
             "Beef Shank",
             "Corn",
@@ -257,6 +271,7 @@
     },
     {
         "name": "Nilaga",
+        "category": "Meat",
         "ingredients": [
             "Beef",
             "Potato",
@@ -275,6 +290,7 @@
     },
     {
         "name": "Sinampalukang Manok",
+        "category": "Poultry",
         "ingredients": [
             "Chicken",
             "Tamarind Leaves",
@@ -293,6 +309,7 @@
     },
     {
         "name": "Chicken Curry",
+        "category": "Poultry",
         "ingredients": [
             "Chicken",
             "Curry Powder",
@@ -311,6 +328,7 @@
     },
     {
         "name": "Monggo Guisado",
+        "category": "Vegetable",
         "ingredients": [
             "Mung Beans",
             "Pork",
@@ -329,6 +347,7 @@
     },
     {
         "name": "Gising-Gising",
+        "category": "Vegetable",
         "ingredients": [
             "Winged Beans",
             "Ground Pork",
@@ -347,6 +366,7 @@
     },
     {
         "name": "Dinuguan",
+        "category": "Meat",
         "ingredients": [
             "Pork",
             "Pork Blood",
@@ -365,6 +385,7 @@
     },
     {
         "name": "Paksiw na Lechon",
+        "category": "Meat",
         "ingredients": [
             "Lechon",
             "Liver Sauce",
@@ -382,6 +403,7 @@
     },
     {
         "name": "Paksiw na Pata",
+        "category": "Meat",
         "ingredients": [
             "Pork Leg",
             "Vinegar",
@@ -399,6 +421,7 @@
     },
     {
         "name": "Humba",
+        "category": "Meat",
         "ingredients": [
             "Pork Belly",
             "Soy Sauce",
@@ -417,6 +440,7 @@
     },
     {
         "name": "Longganisa",
+        "category": "Meat",
         "ingredients": [
             "Ground Pork",
             "Garlic",
@@ -435,6 +459,7 @@
     },
     {
         "name": "Tocino",
+        "category": "Meat",
         "ingredients": [
             "Pork",
             "Sugar",
@@ -453,6 +478,7 @@
     },
     {
         "name": "Tapsilog",
+        "category": "Meat",
         "ingredients": [
             "Beef Tapa",
             "Garlic Rice",
@@ -468,6 +494,7 @@
     },
     {
         "name": "Champorado",
+        "category": "Dessert",
         "ingredients": [
             "Glutinous Rice",
             "Cocoa Powder",
@@ -485,6 +512,7 @@
     },
     {
         "name": "Arroz Caldo",
+        "category": "Poultry",
         "ingredients": [
             "Rice",
             "Chicken",
@@ -503,6 +531,7 @@
     },
     {
         "name": "Lugaw",
+        "category": "Poultry",
         "ingredients": [
             "Rice",
             "Ginger",
@@ -520,6 +549,7 @@
     },
     {
         "name": "Batchoy",
+        "category": "Meat",
         "ingredients": [
             "Egg Noodles",
             "Pork",
@@ -538,6 +568,7 @@
     },
     {
         "name": "Pancit Canton",
+        "category": "Meat",
         "ingredients": [
             "Flour Noodles",
             "Pork",
@@ -556,6 +587,7 @@
     },
     {
         "name": "Pancit Bihon",
+        "category": "Poultry",
         "ingredients": [
             "Rice Noodles",
             "Chicken",
@@ -574,6 +606,7 @@
     },
     {
         "name": "Pancit Palabok",
+        "category": "Seafood",
         "ingredients": [
             "Rice Noodles",
             "Shrimp Sauce",
@@ -591,6 +624,7 @@
     },
     {
         "name": "Pancit Malabon",
+        "category": "Seafood",
         "ingredients": [
             "Thick Rice Noodles",
             "Shrimp Sauce",
@@ -608,6 +642,7 @@
     },
     {
         "name": "Sotanghon Guisado",
+        "category": "Poultry",
         "ingredients": [
             "Vermicelli Noodles",
             "Chicken",
@@ -626,6 +661,7 @@
     },
     {
         "name": "Lumpia Shanghai",
+        "category": "Meat",
         "ingredients": [
             "Ground Pork",
             "Carrot",
@@ -643,6 +679,7 @@
     },
     {
         "name": "Fresh Lumpia",
+        "category": "Vegetable",
         "ingredients": [
             "Ubood (Heart of Palm)",
             "Pork",
@@ -660,6 +697,7 @@
     },
     {
         "name": "Turon",
+        "category": "Dessert",
         "ingredients": [
             "Banana (Saba)",
             "Jackfruit",
@@ -676,6 +714,7 @@
     },
     {
         "name": "Banana Cue",
+        "category": "Dessert",
         "ingredients": [
             "Banana (Saba)",
             "Brown Sugar",
@@ -690,6 +729,7 @@
     },
     {
         "name": "Ginataang Kalabasa",
+        "category": "Vegetable",
         "ingredients": [
             "Squash",
             "String Beans",
@@ -708,6 +748,7 @@
     },
     {
         "name": "Ginataang Bilo-Bilo",
+        "category": "Dessert",
         "ingredients": [
             "Glutinous Rice Balls",
             "Coconut Milk",
@@ -726,6 +767,7 @@
     },
     {
         "name": "Halo-Halo",
+        "category": "Dessert",
         "ingredients": [
             "Shaved Ice",
             "Milk",
@@ -744,6 +786,7 @@
     },
     {
         "name": "Lechon Kawali",
+        "category": "Meat",
         "ingredients": [
             "Pork Belly",
             "Salt",
