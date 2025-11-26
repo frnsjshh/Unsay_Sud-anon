@@ -1,0 +1,761 @@
+[
+    {
+        "name": "Adobo",
+        "ingredients": [
+            "Pork",
+            "Vinegar",
+            "Soy Sauce",
+            "Garlic",
+            "Bay Leaf",
+            "Peppercorn"
+        ],
+        "instructions": [
+            "Combine pork, soy sauce, and garlic in a bowl. Marinate for at least 1 hour.",
+            "Heat the pot and put in the marinated pork. Cook for a few minutes.",
+            "Add water, vinegar, bay leaves, and peppercorns. Bring to a boil.",
+            "Simmer for 45 minutes to 1 hour or until the meat is tender.",
+            "Serve hot with rice."
+        ]
+    },
+    {
+        "name": "Sinigang",
+        "ingredients": [
+            "Pork",
+            "Tamarind",
+            "Tomato",
+            "Onion",
+            "Kangkong",
+            "Radish"
+        ],
+        "instructions": [
+            "Boil water in a pot.",
+            "Add tomatoes and onions. Simmer until tender.",
+            "Add pork and cook until color turns light brown.",
+            "Add tamarind mix and simmer for 40 minutes.",
+            "Add radish and kangkong. Cook for 2 minutes.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Tortang Talong",
+        "ingredients": [
+            "Eggplant",
+            "Egg",
+            "Salt",
+            "Oil"
+        ],
+        "instructions": [
+            "Grill the eggplant until the skin is charred.",
+            "Peel off the skin.",
+            "Beat eggs in a bowl and season with salt.",
+            "Flatten the eggplant and dip into the egg mixture.",
+            "Fry until golden brown.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Kare-Kare",
+        "ingredients": [
+            "Oxtail",
+            "Peanut Butter",
+            "String Beans",
+            "Eggplant",
+            "Bok Choy",
+            "Annatto",
+            "Bagoong"
+        ],
+        "instructions": [
+            "Boil oxtail until tender.",
+            "Sauté garlic and onion.",
+            "Add annatto water and peanut butter.",
+            "Add vegetables and cook until done.",
+            "Serve with bagoong."
+        ]
+    },
+    {
+        "name": "Tinola",
+        "ingredients": [
+            "Chicken",
+            "Ginger",
+            "Green Papaya",
+            "Chili Leaves",
+            "Onion",
+            "Fish Sauce"
+        ],
+        "instructions": [
+            "Sauté ginger, onion, and chicken.",
+            "Add water and simmer.",
+            "Add papaya and cook until soft.",
+            "Add chili leaves.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Bistek Tagalog",
+        "ingredients": [
+            "Beef",
+            "Soy Sauce",
+            "Calamansi",
+            "Onion",
+            "Garlic",
+            "Pepper"
+        ],
+        "instructions": [
+            "Marinate beef in soy sauce, calamansi, and pepper.",
+            "Pan-fry beef slices.",
+            "Sauté onions.",
+            "Simmer beef in marinade.",
+            "Top with onions."
+        ]
+    },
+    {
+        "name": "Pinakbet",
+        "ingredients": [
+            "Pork",
+            "Squash",
+            "Bitter Melon",
+            "Eggplant",
+            "Okra",
+            "String Beans",
+            "Bagoong"
+        ],
+        "instructions": [
+            "Sauté pork until brown.",
+            "Add bagoong.",
+            "Add vegetables in layers (squash first).",
+            "Simmer until vegetables are cooked.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Menudo",
+        "ingredients": [
+            "Pork",
+            "Liver",
+            "Potato",
+            "Carrot",
+            "Tomato Sauce",
+            "Raisins",
+            "Chickpeas"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add pork and liver.",
+            "Add tomato sauce and water.",
+            "Add potatoes and carrots.",
+            "Simmer until tender."
+        ]
+    },
+    {
+        "name": "Caldereta",
+        "ingredients": [
+            "Beef",
+            "Tomato Sauce",
+            "Liver Spread",
+            "Potato",
+            "Carrot",
+            "Bell Pepper",
+            "Cheese"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add beef and brown.",
+            "Add tomato sauce and simmer.",
+            "Add liver spread and cheese.",
+            "Add vegetables."
+        ]
+    },
+    {
+        "name": "Afritada",
+        "ingredients": [
+            "Chicken",
+            "Tomato Sauce",
+            "Potato",
+            "Carrot",
+            "Bell Pepper",
+            "Peas"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add chicken and brown.",
+            "Add tomato sauce.",
+            "Add vegetables.",
+            "Simmer until cooked."
+        ]
+    },
+    {
+        "name": "Mechado",
+        "ingredients": [
+            "Beef",
+            "Tomato Sauce",
+            "Soy Sauce",
+            "Lemon",
+            "Potato",
+            "Carrot"
+        ],
+        "instructions": [
+            "Marinate beef in soy sauce and lemon.",
+            "Sauté garlic and onion.",
+            "Add beef and tomato sauce.",
+            "Add vegetables.",
+            "Simmer until tender."
+        ]
+    },
+    {
+        "name": "Laing",
+        "ingredients": [
+            "Taro Leaves",
+            "Coconut Milk",
+            "Chili",
+            "Ginger",
+            "Shrimp Paste",
+            "Pork"
+        ],
+        "instructions": [
+            "Combine coconut milk, ginger, and shrimp paste.",
+            "Add pork and cook.",
+            "Add dried taro leaves (do not stir).",
+            "Simmer until oil comes out.",
+            "Add chili."
+        ]
+    },
+    {
+        "name": "Bicol Express",
+        "ingredients": [
+            "Pork",
+            "Coconut Milk",
+            "Chili",
+            "Shrimp Paste",
+            "Garlic",
+            "Onion"
+        ],
+        "instructions": [
+            "Sauté garlic, onion, and pork.",
+            "Add shrimp paste.",
+            "Add coconut milk and simmer.",
+            "Add chilies.",
+            "Cook until creamy."
+        ]
+    },
+    {
+        "name": "Bulalo",
+        "ingredients": [
+            "Beef Shank",
+            "Corn",
+            "Cabbage",
+            "Peppercorn",
+            "Onion",
+            "Fish Sauce"
+        ],
+        "instructions": [
+            "Boil beef shank with onion and peppercorn for hours.",
+            "Add corn.",
+            "Add cabbage.",
+            "Season with fish sauce.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Nilaga",
+        "ingredients": [
+            "Beef",
+            "Potato",
+            "Cabbage",
+            "Peppercorn",
+            "Onion",
+            "Fish Sauce"
+        ],
+        "instructions": [
+            "Boil beef with onion and peppercorn.",
+            "Add potatoes.",
+            "Add cabbage.",
+            "Season with fish sauce.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Sinampalukang Manok",
+        "ingredients": [
+            "Chicken",
+            "Tamarind Leaves",
+            "Ginger",
+            "Onion",
+            "Garlic",
+            "Fish Sauce"
+        ],
+        "instructions": [
+            "Sauté ginger, garlic, and onion.",
+            "Add chicken.",
+            "Add tamarind leaves and water.",
+            "Simmer until sour and tender.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Chicken Curry",
+        "ingredients": [
+            "Chicken",
+            "Curry Powder",
+            "Coconut Milk",
+            "Potato",
+            "Carrot",
+            "Bell Pepper"
+        ],
+        "instructions": [
+            "Sauté garlic, onion, and ginger.",
+            "Add chicken and curry powder.",
+            "Add coconut milk.",
+            "Add vegetables.",
+            "Simmer until cooked."
+        ]
+    },
+    {
+        "name": "Monggo Guisado",
+        "ingredients": [
+            "Mung Beans",
+            "Pork",
+            "Spinach",
+            "Tomato",
+            "Garlic",
+            "Onion"
+        ],
+        "instructions": [
+            "Boil mung beans until soft.",
+            "Sauté garlic, onion, and tomato.",
+            "Add pork.",
+            "Add boiled beans.",
+            "Add spinach."
+        ]
+    },
+    {
+        "name": "Gising-Gising",
+        "ingredients": [
+            "Winged Beans",
+            "Ground Pork",
+            "Coconut Milk",
+            "Chili",
+            "Shrimp Paste",
+            "Garlic"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add ground pork.",
+            "Add coconut milk and shrimp paste.",
+            "Add beans and chili.",
+            "Simmer until creamy."
+        ]
+    },
+    {
+        "name": "Dinuguan",
+        "ingredients": [
+            "Pork",
+            "Pork Blood",
+            "Vinegar",
+            "Garlic",
+            "Onion",
+            "Chili"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add pork and brown.",
+            "Add vinegar (don't stir).",
+            "Add pork blood and simmer.",
+            "Add chili."
+        ]
+    },
+    {
+        "name": "Paksiw na Lechon",
+        "ingredients": [
+            "Lechon",
+            "Liver Sauce",
+            "Vinegar",
+            "Sugar",
+            "Garlic",
+            "Bay Leaf"
+        ],
+        "instructions": [
+            "Combine all ingredients in a pot.",
+            "Bring to a boil.",
+            "Simmer until sauce thickens.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Paksiw na Pata",
+        "ingredients": [
+            "Pork Leg",
+            "Vinegar",
+            "Soy Sauce",
+            "Banana Blossoms",
+            "Bay Leaf",
+            "Sugar"
+        ],
+        "instructions": [
+            "Boil pork leg with vinegar and soy sauce.",
+            "Add water and simmer until tender.",
+            "Add banana blossoms and sugar.",
+            "Simmer until sauce thickens."
+        ]
+    },
+    {
+        "name": "Humba",
+        "ingredients": [
+            "Pork Belly",
+            "Soy Sauce",
+            "Vinegar",
+            "Sugar",
+            "Black Beans",
+            "Banana Blossoms"
+        ],
+        "instructions": [
+            "Marinate pork in soy sauce and vinegar.",
+            "Sauté garlic and onion.",
+            "Add pork and marinade.",
+            "Add sugar, black beans, and blossoms.",
+            "Simmer until tender."
+        ]
+    },
+    {
+        "name": "Longganisa",
+        "ingredients": [
+            "Ground Pork",
+            "Garlic",
+            "Sugar",
+            "Vinegar",
+            "Soy Sauce",
+            "Pepper"
+        ],
+        "instructions": [
+            "Mix all ingredients.",
+            "Cure for a few days.",
+            "Fry in a pan with a little water.",
+            "Cook until caramelized.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "name": "Tocino",
+        "ingredients": [
+            "Pork",
+            "Sugar",
+            "Salt",
+            "Garlic",
+            "Pineapple Juice",
+            "Food Coloring"
+        ],
+        "instructions": [
+            "Mix all ingredients with pork.",
+            "Cure for 2-3 days.",
+            "Fry in a pan with water.",
+            "Cook until caramelized.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "name": "Tapsilog",
+        "ingredients": [
+            "Beef Tapa",
+            "Garlic Rice",
+            "Egg",
+            "Vinegar"
+        ],
+        "instructions": [
+            "Fry beef tapa.",
+            "Fry garlic rice.",
+            "Fry egg.",
+            "Serve together with vinegar dip."
+        ]
+    },
+    {
+        "name": "Champorado",
+        "ingredients": [
+            "Glutinous Rice",
+            "Cocoa Powder",
+            "Sugar",
+            "Milk",
+            "Dried Fish"
+        ],
+        "instructions": [
+            "Boil rice in water.",
+            "Add cocoa powder and sugar.",
+            "Cook until thick.",
+            "Drizzle with milk.",
+            "Serve with dried fish."
+        ]
+    },
+    {
+        "name": "Arroz Caldo",
+        "ingredients": [
+            "Rice",
+            "Chicken",
+            "Ginger",
+            "Garlic",
+            "Onion",
+            "Safflower"
+        ],
+        "instructions": [
+            "Sauté ginger, garlic, and onion.",
+            "Add chicken and rice.",
+            "Add water and simmer.",
+            "Add safflower.",
+            "Garnish with garlic and onion."
+        ]
+    },
+    {
+        "name": "Lugaw",
+        "ingredients": [
+            "Rice",
+            "Ginger",
+            "Garlic",
+            "Water",
+            "Salt",
+            "Egg"
+        ],
+        "instructions": [
+            "Boil rice with ginger and water.",
+            "Cook until thick.",
+            "Season with salt.",
+            "Top with boiled egg and garlic."
+        ]
+    },
+    {
+        "name": "Batchoy",
+        "ingredients": [
+            "Egg Noodles",
+            "Pork",
+            "Liver",
+            "Pork Cracklings",
+            "Garlic",
+            "Bone Broth"
+        ],
+        "instructions": [
+            "Boil bone broth.",
+            "Cook noodles.",
+            "Top with pork, liver, and cracklings.",
+            "Pour hot broth.",
+            "Garnish with garlic."
+        ]
+    },
+    {
+        "name": "Pancit Canton",
+        "ingredients": [
+            "Flour Noodles",
+            "Pork",
+            "Shrimp",
+            "Cabbage",
+            "Carrot",
+            "Soy Sauce"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add meat and shrimp.",
+            "Add vegetables.",
+            "Add soy sauce and broth.",
+            "Add noodles and cook until dry."
+        ]
+    },
+    {
+        "name": "Pancit Bihon",
+        "ingredients": [
+            "Rice Noodles",
+            "Chicken",
+            "Cabbage",
+            "Carrot",
+            "Soy Sauce",
+            "Lemon"
+        ],
+        "instructions": [
+            "Soak noodles.",
+            "Sauté garlic and onion.",
+            "Add chicken and vegetables.",
+            "Add soy sauce and broth.",
+            "Add noodles and mix."
+        ]
+    },
+    {
+        "name": "Pancit Palabok",
+        "ingredients": [
+            "Rice Noodles",
+            "Shrimp Sauce",
+            "Shrimp",
+            "Chicharon",
+            "Egg",
+            "Tinapa"
+        ],
+        "instructions": [
+            "Cook noodles.",
+            "Prepare shrimp sauce.",
+            "Pour sauce over noodles.",
+            "Top with shrimp, chicharon, egg, and tinapa flakes."
+        ]
+    },
+    {
+        "name": "Pancit Malabon",
+        "ingredients": [
+            "Thick Rice Noodles",
+            "Shrimp Sauce",
+            "Shrimp",
+            "Squid",
+            "Chicharon",
+            "Egg"
+        ],
+        "instructions": [
+            "Cook noodles.",
+            "Mix with shrimp sauce.",
+            "Top with seafood, chicharon, and eggs.",
+            "Serve with calamansi."
+        ]
+    },
+    {
+        "name": "Sotanghon Guisado",
+        "ingredients": [
+            "Vermicelli Noodles",
+            "Chicken",
+            "Wood Ear Mushroom",
+            "Carrot",
+            "Annatto",
+            "Garlic"
+        ],
+        "instructions": [
+            "Soak noodles.",
+            "Sauté garlic and onion.",
+            "Add chicken and mushrooms.",
+            "Add annatto water.",
+            "Add noodles and cook."
+        ]
+    },
+    {
+        "name": "Lumpia Shanghai",
+        "ingredients": [
+            "Ground Pork",
+            "Carrot",
+            "Onion",
+            "Garlic",
+            "Egg",
+            "Spring Roll Wrapper"
+        ],
+        "instructions": [
+            "Mix pork, carrot, onion, garlic, and egg.",
+            "Wrap in spring roll wrapper.",
+            "Deep fry until golden brown.",
+            "Serve with sweet chili sauce."
+        ]
+    },
+    {
+        "name": "Fresh Lumpia",
+        "ingredients": [
+            "Ubood (Heart of Palm)",
+            "Pork",
+            "Shrimp",
+            "Lettuce",
+            "Wrapper",
+            "Peanut Sauce"
+        ],
+        "instructions": [
+            "Sauté ubod, pork, and shrimp.",
+            "Wrap in fresh wrapper with lettuce.",
+            "Pour peanut sauce over.",
+            "Garnish with peanuts."
+        ]
+    },
+    {
+        "name": "Turon",
+        "ingredients": [
+            "Banana (Saba)",
+            "Jackfruit",
+            "Sugar",
+            "Spring Roll Wrapper",
+            "Oil"
+        ],
+        "instructions": [
+            "Roll banana and jackfruit in sugar.",
+            "Wrap in wrapper.",
+            "Deep fry with sugar until caramelized.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Banana Cue",
+        "ingredients": [
+            "Banana (Saba)",
+            "Brown Sugar",
+            "Oil"
+        ],
+        "instructions": [
+            "Deep fry bananas.",
+            "Add sugar to oil.",
+            "Coat bananas in caramelized sugar.",
+            "Skewer on bamboo sticks."
+        ]
+    },
+    {
+        "name": "Ginataang Kalabasa",
+        "ingredients": [
+            "Squash",
+            "String Beans",
+            "Coconut Milk",
+            "Shrimp",
+            "Garlic",
+            "Onion"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add squash and coconut milk.",
+            "Simmer until squash is tender.",
+            "Add beans and shrimp.",
+            "Cook until done."
+        ]
+    },
+    {
+        "name": "Ginataang Bilo-Bilo",
+        "ingredients": [
+            "Glutinous Rice Balls",
+            "Coconut Milk",
+            "Jackfruit",
+            "Banana",
+            "Sweet Potato",
+            "Tapioca Pearls"
+        ],
+        "instructions": [
+            "Boil coconut milk.",
+            "Add sweet potato and banana.",
+            "Add rice balls and tapioca.",
+            "Add jackfruit.",
+            "Simmer until cooked."
+        ]
+    },
+    {
+        "name": "Halo-Halo",
+        "ingredients": [
+            "Shaved Ice",
+            "Milk",
+            "Sweet Beans",
+            "Jelly",
+            "Ube",
+            "Leche Flan"
+        ],
+        "instructions": [
+            "Layer ingredients in a glass.",
+            "Add shaved ice.",
+            "Pour milk.",
+            "Top with ube and leche flan.",
+            "Mix and enjoy."
+        ]
+    },
+    {
+        "name": "Lechon Kawali",
+        "ingredients": [
+            "Pork Belly",
+            "Salt",
+            "Peppercorn",
+            "Bay Leaf",
+            "Oil"
+        ],
+        "instructions": [
+            "Boil pork belly with spices until tender.",
+            "Air dry or refrigerate.",
+            "Deep fry until crispy.",
+            "Serve with liver sauce."
+        ]
+    }
+]
