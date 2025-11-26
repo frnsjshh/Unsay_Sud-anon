@@ -800,5 +800,974 @@
             "Deep fry until crispy.",
             "Serve with liver sauce."
         ]
+    },
+    {
+        "name": "Chicken Inasal",
+        "category": "Poultry",
+        "ingredients": [
+            "Chicken",
+            "Lemongrass",
+            "Calamansi",
+            "Garlic",
+            "Ginger",
+            "Annatto Oil"
+        ],
+        "instructions": [
+            "Marinate chicken in lemongrass, calamansi, garlic, and ginger.",
+            "Grill while basting with annatto oil.",
+            "Serve with rice and chicken oil."
+        ]
+    },
+    {
+        "name": "Sisig",
+        "category": "Meat",
+        "ingredients": [
+            "Pork Face",
+            "Chicken Liver",
+            "Onion",
+            "Chili",
+            "Calamansi",
+            "Mayonnaise"
+        ],
+        "instructions": [
+            "Boil and grill pork face.",
+            "Chop into small pieces.",
+            "Sauté with onions and liver.",
+            "Season with calamansi and chili.",
+            "Serve on a sizzling plate with egg."
+        ]
+    },
+    {
+        "name": "Crispy Pata",
+        "category": "Meat",
+        "ingredients": [
+            "Pork Leg",
+            "Salt",
+            "Peppercorn",
+            "Bay Leaf",
+            "Oil"
+        ],
+        "instructions": [
+            "Boil pork leg with spices until tender.",
+            "Air dry for hours.",
+            "Deep fry until skin is crispy.",
+            "Serve with soy-vinegar dip."
+        ]
+    },
+    {
+        "name": "Fish Escabeche",
+        "category": "Seafood",
+        "ingredients": [
+            "Fish",
+            "Vinegar",
+            "Sugar",
+            "Ginger",
+            "Bell Pepper",
+            "Carrot"
+        ],
+        "instructions": [
+            "Fry the fish.",
+            "Sauté ginger and vegetables.",
+            "Add vinegar and sugar mixture.",
+            "Simmer until sauce thickens.",
+            "Pour over fried fish."
+        ]
+    },
+    {
+        "name": "Sweet and Sour Pork",
+        "category": "Meat",
+        "ingredients": [
+            "Pork",
+            "Pineapple",
+            "Bell Pepper",
+            "Carrot",
+            "Vinegar",
+            "Ketchup"
+        ],
+        "instructions": [
+            "Batter and fry pork cubes.",
+            "Sauté vegetables and pineapple.",
+            "Add vinegar and ketchup sauce.",
+            "Toss pork in sauce.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Beef Pares",
+        "category": "Meat",
+        "ingredients": [
+            "Beef Brisket",
+            "Soy Sauce",
+            "Star Anise",
+            "Sugar",
+            "Ginger",
+            "Garlic"
+        ],
+        "instructions": [
+            "Sauté ginger and garlic.",
+            "Add beef and brown.",
+            "Add soy sauce, star anise, and water.",
+            "Simmer until tender.",
+            "Serve with garlic rice and soup."
+        ]
+    },
+    {
+        "name": "Lomi",
+        "category": "Meat",
+        "ingredients": [
+            "Egg Noodles",
+            "Pork",
+            "Liver",
+            "Egg",
+            "Cassava Starch",
+            "Kikiam"
+        ],
+        "instructions": [
+            "Sauté garlic and onion.",
+            "Add meat and broth.",
+            "Add noodles.",
+            "Thicken soup with starch.",
+            "Add beaten egg."
+        ]
+    },
+    {
+        "name": "Mami",
+        "category": "Meat",
+        "ingredients": [
+            "Egg Noodles",
+            "Beef or Chicken",
+            "Broth",
+            "Cabbage",
+            "Egg",
+            "Garlic"
+        ],
+        "instructions": [
+            "Prepare hot broth.",
+            "Cook noodles.",
+            "Top with meat, egg, and vegetables.",
+            "Pour broth over.",
+            "Garnish with fried garlic."
+        ]
+    },
+    {
+        "name": "Goto",
+        "category": "Meat",
+        "ingredients": [
+            "Rice",
+            "Beef Tripe",
+            "Ginger",
+            "Garlic",
+            "Safflower",
+            "Fish Sauce"
+        ],
+        "instructions": [
+            "Sauté ginger and garlic.",
+            "Add tripe and rice.",
+            "Add water and simmer until rice is cooked.",
+            "Add safflower.",
+            "Serve with calamansi."
+        ]
+    },
+    {
+        "name": "Kwek-Kwek",
+        "category": "Snack",
+        "ingredients": [
+            "Quail Eggs",
+            "Flour",
+            "Cornstarch",
+            "Food Coloring",
+            "Oil"
+        ],
+        "instructions": [
+            "Boil quail eggs and peel.",
+            "Make an orange batter.",
+            "Coat eggs in batter.",
+            "Deep fry until crispy.",
+            "Serve with vinegar or sweet sauce."
+        ]
+    },
+    {
+        "name": "Fishballs",
+        "category": "Snack",
+        "ingredients": [
+            "Fish Meat",
+            "Flour",
+            "Baking Powder",
+            "Salt",
+            "Water"
+        ],
+        "instructions": [
+            "Mix ingredients into a paste.",
+            "Shape into flat discs.",
+            "Deep fry until puffed.",
+            "Serve with sweet and spicy sauce."
+        ]
+    },
+    {
+        "name": "Kikiam",
+        "category": "Snack",
+        "ingredients": [
+            "Ground Pork",
+            "Shrimp",
+            "Bean Curd Sheet",
+            "Five Spice Powder",
+            "Carrot"
+        ],
+        "instructions": [
+            "Mix pork, shrimp, and spices.",
+            "Wrap in bean curd sheet.",
+            "Steam.",
+            "Deep fry before serving."
+        ]
+    },
+    {
+        "name": "Taho",
+        "category": "Dessert",
+        "ingredients": [
+            "Silken Tofu",
+            "Arnibal (Sugar Syrup)",
+            "Sago Pearls"
+        ],
+        "instructions": [
+            "Prepare warm silken tofu.",
+            "Top with arnibal.",
+            "Add sago pearls.",
+            "Serve warm."
+        ]
+    },
+    {
+        "name": "Bibingka",
+        "category": "Dessert",
+        "ingredients": [
+            "Rice Flour",
+            "Coconut Milk",
+            "Egg",
+            "Salted Egg",
+            "Cheese",
+            "Butter"
+        ],
+        "instructions": [
+            "Mix rice flour and coconut milk.",
+            "Pour into clay pot lined with banana leaf.",
+            "Top with salted egg and cheese.",
+            "Bake with charcoal.",
+            "Brush with butter."
+        ]
+    },
+    {
+        "name": "Puto Bumbong",
+        "category": "Dessert",
+        "ingredients": [
+            "Purple Rice",
+            "Coconut",
+            "Sugar",
+            "Butter"
+        ],
+        "instructions": [
+            "Soak purple rice.",
+            "Grind and steam in bamboo tubes.",
+            "Serve with butter, sugar, and grated coconut."
+        ]
+    },
+    {
+        "name": "Puto Cheese",
+        "category": "Dessert",
+        "ingredients": [
+            "Flour",
+            "Sugar",
+            "Milk",
+            "Egg",
+            "Cheese",
+            "Baking Powder"
+        ],
+        "instructions": [
+            "Mix dry and wet ingredients.",
+            "Pour into molds.",
+            "Top with cheese.",
+            "Steam until fluffy."
+        ]
+    },
+    {
+        "name": "Kutsinta",
+        "category": "Dessert",
+        "ingredients": [
+            "Flour",
+            "Tapioca Starch",
+            "Sugar",
+            "Annatto Water",
+            "Lye Water"
+        ],
+        "instructions": [
+            "Mix all ingredients.",
+            "Pour into molds.",
+            "Steam until set.",
+            "Serve with grated coconut."
+        ]
+    },
+    {
+        "name": "Sapin-Sapin",
+        "category": "Dessert",
+        "ingredients": [
+            "Glutinous Rice Flour",
+            "Coconut Milk",
+            "Sugar",
+            "Ube Flavor",
+            "Jackfruit Flavor"
+        ],
+        "instructions": [
+            "Divide batter into 3 parts.",
+            "Color purple, yellow, and white.",
+            "Steam layer by layer.",
+            "Top with latik."
+        ]
+    },
+    {
+        "name": "Maja Blanca",
+        "category": "Dessert",
+        "ingredients": [
+            "Coconut Milk",
+            "Cornstarch",
+            "Sugar",
+            "Corn Kernels",
+            "Milk"
+        ],
+        "instructions": [
+            "Boil coconut milk and sugar.",
+            "Add corn.",
+            "Add cornstarch mixture and stir until thick.",
+            "Pour into tray and cool.",
+            "Top with cheese or latik."
+        ]
+    },
+    {
+        "name": "Biko",
+        "category": "Dessert",
+        "ingredients": [
+            "Glutinous Rice",
+            "Coconut Milk",
+            "Brown Sugar",
+            "Ginger"
+        ],
+        "instructions": [
+            "Cook glutinous rice.",
+            "Simmer coconut milk and sugar until thick (latik).",
+            "Mix rice with syrup.",
+            "Top with latik curds."
+        ]
+    },
+    {
+        "name": "Suman",
+        "category": "Dessert",
+        "ingredients": [
+            "Glutinous Rice",
+            "Coconut Milk",
+            "Sugar",
+            "Salt",
+            "Banana Leaves"
+        ],
+        "instructions": [
+            "Cook rice in coconut milk.",
+            "Wrap in banana leaves.",
+            "Steam until fully cooked.",
+            "Serve with sugar."
+        ]
+    },
+    {
+        "name": "Espasol",
+        "category": "Dessert",
+        "ingredients": [
+            "Glutinous Rice Flour",
+            "Coconut Milk",
+            "Sugar",
+            "Toasted Rice Flour"
+        ],
+        "instructions": [
+            "Toast rice flour.",
+            "Boil coconut milk and sugar.",
+            "Add flour and cook until thick.",
+            "Roll in toasted flour."
+        ]
+    },
+    {
+        "name": "Cassava Cake",
+        "category": "Dessert",
+        "ingredients": [
+            "Grated Cassava",
+            "Coconut Milk",
+            "Condensed Milk",
+            "Egg",
+            "Cheese"
+        ],
+        "instructions": [
+            "Mix cassava, milk, and eggs.",
+            "Bake until set.",
+            "Pour topping mixture.",
+            "Bake until golden."
+        ]
+    },
+    {
+        "name": "Leche Flan",
+        "category": "Dessert",
+        "ingredients": [
+            "Egg Yolks",
+            "Condensed Milk",
+            "Evaporated Milk",
+            "Sugar",
+            "Vanilla"
+        ],
+        "instructions": [
+            "Caramelize sugar in molds.",
+            "Mix yolks and milk.",
+            "Pour into molds.",
+            "Steam until firm."
+        ]
+    },
+    {
+        "name": "Ube Halaya",
+        "category": "Dessert",
+        "ingredients": [
+            "Purple Yam",
+            "Condensed Milk",
+            "Coconut Milk",
+            "Butter",
+            "Cheese"
+        ],
+        "instructions": [
+            "Boil and mash ube.",
+            "Cook with milks and butter.",
+            "Stir constantly until thick.",
+            "Top with cheese."
+        ]
+    },
+    {
+        "name": "Polvoron",
+        "category": "Dessert",
+        "ingredients": [
+            "Toasted Flour",
+            "Powdered Milk",
+            "Sugar",
+            "Butter"
+        ],
+        "instructions": [
+            "Toast flour until golden.",
+            "Mix with milk and sugar.",
+            "Add melted butter.",
+            "Mold into shapes."
+        ]
+    },
+    {
+        "name": "Pastillas",
+        "category": "Dessert",
+        "ingredients": [
+            "Powdered Milk",
+            "Condensed Milk",
+            "Sugar"
+        ],
+        "instructions": [
+            "Mix powdered milk and condensed milk.",
+            "Shape into cylinders.",
+            "Roll in sugar.",
+            "Wrap in paper."
+        ]
+    },
+    {
+        "name": "Yema",
+        "category": "Dessert",
+        "ingredients": [
+            "Egg Yolks",
+            "Condensed Milk",
+            "Butter",
+            "Nuts"
+        ],
+        "instructions": [
+            "Mix yolks and milk in a pan.",
+            "Cook until thick.",
+            "Add nuts.",
+            "Shape into balls and wrap."
+        ]
+    },
+    {
+        "name": "Macaroni Salad",
+        "category": "Dessert",
+        "ingredients": [
+            "Macaroni",
+            "Mayonnaise",
+            "Condensed Milk",
+            "Cheese",
+            "Raisins",
+            "Fruit Cocktail"
+        ],
+        "instructions": [
+            "Cook macaroni.",
+            "Mix with dressing ingredients.",
+            "Add fruits and cheese.",
+            "Chill before serving."
+        ]
+    },
+    {
+        "name": "Fruit Salad",
+        "category": "Dessert",
+        "ingredients": [
+            "Fruit Cocktail",
+            "All-Purpose Cream",
+            "Condensed Milk",
+            "Cheese",
+            "Coconut"
+        ],
+        "instructions": [
+            "Drain fruit cocktail.",
+            "Mix with cream and milk.",
+            "Add cheese and coconut.",
+            "Chill overnight."
+        ]
+    },
+    {
+        "name": "Buko Pandan",
+        "category": "Dessert",
+        "ingredients": [
+            "Young Coconut",
+            "Pandan Jelly",
+            "Cream",
+            "Condensed Milk",
+            "Tapioca"
+        ],
+        "instructions": [
+            "Mix jelly, coconut, and tapioca.",
+            "Add cream and milk mixture.",
+            "Chill before serving."
+        ]
+    },
+    {
+        "name": "Mango Float",
+        "category": "Dessert",
+        "ingredients": [
+            "Graham Crackers",
+            "Mango",
+            "Cream",
+            "Condensed Milk"
+        ],
+        "instructions": [
+            "Whip cream and milk.",
+            "Layer crackers, cream, and mangoes.",
+            "Repeat layers.",
+            "Chill or freeze."
+        ]
+    },
+    {
+        "name": "Coffee Jelly",
+        "category": "Dessert",
+        "ingredients": [
+            "Coffee Jelly",
+            "Cream",
+            "Condensed Milk"
+        ],
+        "instructions": [
+            "Make coffee jelly cubes.",
+            "Mix cream and condensed milk.",
+            "Combine and chill."
+        ]
+    },
+    {
+        "name": "Cathedral Window Jelly",
+        "category": "Dessert",
+        "ingredients": [
+            "Colored Jelly Cubes",
+            "Cream",
+            "Gelatin",
+            "Milk"
+        ],
+        "instructions": [
+            "Prepare colored jelly cubes.",
+            "Dissolve gelatin in milk and cream.",
+            "Mix cubes into white gelatin.",
+            "Chill until set."
+        ]
+    },
+    {
+        "name": "Embutido",
+        "category": "Meat",
+        "ingredients": [
+            "Ground Pork",
+            "Raisins",
+            "Carrot",
+            "Sausage",
+            "Egg",
+            "Cheese"
+        ],
+        "instructions": [
+            "Mix all ingredients.",
+            "Wrap in foil.",
+            "Steam for an hour.",
+            "Slice and fry."
+        ]
+    },
+    {
+        "name": "Hardinera",
+        "category": "Meat",
+        "ingredients": [
+            "Pork",
+            "Liver Spread",
+            "Tomato Sauce",
+            "Pineapple",
+            "Egg",
+            "Bell Pepper"
+        ],
+        "instructions": [
+            "Sauté pork and sauce.",
+            "Arrange garnishes in llanera.",
+            "Pour pork mixture.",
+            "Steam until set."
+        ]
+    },
+    {
+        "name": "Morcon",
+        "category": "Meat",
+        "ingredients": [
+            "Beef Flank",
+            "Sausage",
+            "Pickle",
+            "Carrot",
+            "Egg",
+            "Cheese"
+        ],
+        "instructions": [
+            "Flatten beef.",
+            "Place stuffing ingredients.",
+            "Roll and tie.",
+            "Simmer in tomato sauce."
+        ]
+    },
+    {
+        "name": "Relleno Bangus",
+        "category": "Seafood",
+        "ingredients": [
+            "Milkfish",
+            "Raisins",
+            "Carrot",
+            "Peas",
+            "Soy Sauce",
+            "Lemon"
+        ],
+        "instructions": [
+            "Remove fish meat without breaking skin.",
+            "Cook meat with vegetables.",
+            "Stuff back into skin.",
+            "Fry or bake."
+        ]
+    },
+    {
+        "name": "Daing na Bangus",
+        "category": "Seafood",
+        "ingredients": [
+            "Milkfish",
+            "Vinegar",
+            "Garlic",
+            "Peppercorn",
+            "Salt"
+        ],
+        "instructions": [
+            "Marinate fish in vinegar and garlic.",
+            "Sun dry or refrigerate.",
+            "Fry until golden.",
+            "Serve with vinegar."
+        ]
+    },
+    {
+        "name": "Tinapa",
+        "category": "Seafood",
+        "ingredients": [
+            "Fish",
+            "Salt",
+            "Water",
+            "Smoke"
+        ],
+        "instructions": [
+            "Brine the fish.",
+            "Smoke until golden.",
+            "Fry before serving."
+        ]
+    },
+    {
+        "name": "Tuyo",
+        "category": "Seafood",
+        "ingredients": [
+            "Fish",
+            "Salt"
+        ],
+        "instructions": [
+            "Salt the fish.",
+            "Sun dry.",
+            "Fry until crispy.",
+            "Serve with vinegar."
+        ]
+    },
+    {
+        "name": "Danggit",
+        "category": "Seafood",
+        "ingredients": [
+            "Rabbitfish",
+            "Salt",
+            "Vinegar"
+        ],
+        "instructions": [
+            "Marinate and dry the fish.",
+            "Fry until crispy.",
+            "Serve with vinegar."
+        ]
+    },
+    {
+        "name": "Kinilaw",
+        "category": "Seafood",
+        "ingredients": [
+            "Fresh Tuna",
+            "Vinegar",
+            "Calamansi",
+            "Ginger",
+            "Onion",
+            "Chili"
+        ],
+        "instructions": [
+            "Wash fish in vinegar.",
+            "Mix with spices.",
+            "Chill.",
+            "Serve fresh."
+        ]
+    },
+    {
+        "name": "Inihaw na Liempo",
+        "category": "Meat",
+        "ingredients": [
+            "Pork Belly",
+            "Soy Sauce",
+            "Calamansi",
+            "Garlic",
+            "Banana Ketchup"
+        ],
+        "instructions": [
+            "Marinate pork.",
+            "Grill over charcoal.",
+            "Baste with marinade.",
+            "Serve with toyomansi."
+        ]
+    },
+    {
+        "name": "Inihaw na Pusit",
+        "category": "Seafood",
+        "ingredients": [
+            "Squid",
+            "Tomato",
+            "Onion",
+            "Soy Sauce",
+            "Calamansi"
+        ],
+        "instructions": [
+            "Stuff squid with tomato and onion.",
+            "Grill.",
+            "Baste with soy sauce mixture.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Inihaw na Tilapia",
+        "category": "Seafood",
+        "ingredients": [
+            "Tilapia",
+            "Tomato",
+            "Onion",
+            "Ginger",
+            "Salt"
+        ],
+        "instructions": [
+            "Clean fish.",
+            "Stuff with tomato, onion, and ginger.",
+            "Grill.",
+            "Serve with soy sauce."
+        ]
+    },
+    {
+        "name": "Pinaputok na Tilapia",
+        "category": "Seafood",
+        "ingredients": [
+            "Tilapia",
+            "Tomato",
+            "Onion",
+            "Ginger",
+            "Butter"
+        ],
+        "instructions": [
+            "Stuff fish with vegetables.",
+            "Wrap in foil with butter.",
+            "Grill or bake.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Sinanglay",
+        "category": "Seafood",
+        "ingredients": [
+            "Tilapia",
+            "Coconut Milk",
+            "Pechay",
+            "Ginger",
+            "Chili"
+        ],
+        "instructions": [
+            "Wrap fish in pechay.",
+            "Simmer in coconut milk with ginger.",
+            "Add chili.",
+            "Cook until sauce thickens."
+        ]
+    },
+    {
+        "name": "Ginataang Tilapia",
+        "category": "Seafood",
+        "ingredients": [
+            "Tilapia",
+            "Coconut Milk",
+            "Spinach",
+            "Ginger",
+            "Vinegar"
+        ],
+        "instructions": [
+            "Sauté ginger.",
+            "Add coconut milk and vinegar.",
+            "Add fish.",
+            "Add spinach.",
+            "Simmer until cooked."
+        ]
+    },
+    {
+        "name": "Ginataang Langka",
+        "category": "Vegetable",
+        "ingredients": [
+            "Unripe Jackfruit",
+            "Coconut Milk",
+            "Pork",
+            "Shrimp Paste",
+            "Chili"
+        ],
+        "instructions": [
+            "Boil jackfruit until soft.",
+            "Sauté pork and shrimp paste.",
+            "Add coconut milk and jackfruit.",
+            "Simmer until thick."
+        ]
+    },
+    {
+        "name": "Ginataang Hipon",
+        "category": "Seafood",
+        "ingredients": [
+            "Shrimp",
+            "Coconut Milk",
+            "Squash",
+            "String Beans",
+            "Ginger"
+        ],
+        "instructions": [
+            "Sauté ginger.",
+            "Add coconut milk and squash.",
+            "Add shrimp and beans.",
+            "Simmer until cooked."
+        ]
+    },
+    {
+        "name": "Ginataang Alimasag",
+        "category": "Seafood",
+        "ingredients": [
+            "Crab",
+            "Coconut Milk",
+            "Squash",
+            "Spinach",
+            "Ginger"
+        ],
+        "instructions": [
+            "Sauté ginger.",
+            "Add coconut milk and squash.",
+            "Add crab.",
+            "Add spinach.",
+            "Simmer until cooked."
+        ]
+    },
+    {
+        "name": "Halabos na Hipon",
+        "category": "Seafood",
+        "ingredients": [
+            "Shrimp",
+            "Salt",
+            "Sprite"
+        ],
+        "instructions": [
+            "Wash shrimp.",
+            "Boil in Sprite and salt.",
+            "Cook until orange.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Buttered Shrimp",
+        "category": "Seafood",
+        "ingredients": [
+            "Shrimp",
+            "Butter",
+            "Garlic",
+            "Sprite"
+        ],
+        "instructions": [
+            "Marinate shrimp in Sprite.",
+            "Sauté garlic in butter.",
+            "Add shrimp.",
+            "Cook until orange."
+        ]
+    },
+    {
+        "name": "Chili Garlic Shrimp",
+        "category": "Seafood",
+        "ingredients": [
+            "Shrimp",
+            "Chili Sauce",
+            "Garlic",
+            "Butter",
+            "Ketchup"
+        ],
+        "instructions": [
+            "Sauté garlic in butter.",
+            "Add shrimp.",
+            "Add chili sauce and ketchup.",
+            "Cook until done."
+        ]
+    },
+    {
+        "name": "Steamed Lapu-Lapu",
+        "category": "Seafood",
+        "ingredients": [
+            "Grouper",
+            "Soy Sauce",
+            "Ginger",
+            "Leeks",
+            "Sesame Oil"
+        ],
+        "instructions": [
+            "Steam fish with ginger.",
+            "Pour soy sauce mixture.",
+            "Top with leeks.",
+            "Drizzle hot sesame oil."
+        ]
+    },
+    {
+        "name": "Sweet and Sour Fish",
+        "category": "Seafood",
+        "ingredients": [
+            "Fish Fillet",
+            "Vinegar",
+            "Sugar",
+            "Ketchup",
+            "Bell Pepper"
+        ],
+        "instructions": [
+            "Fry fish fillets.",
+            "Make sweet and sour sauce.",
+            "Add vegetables.",
+            "Pour over fish."
+        ]
     }
 ]
