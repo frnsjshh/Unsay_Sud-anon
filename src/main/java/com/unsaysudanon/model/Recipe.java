@@ -16,6 +16,7 @@ public class Recipe {
         this.instructions = instructions;
     }
 
+    //ENCAPSULATION
     public String getName() {
         return name;
     }

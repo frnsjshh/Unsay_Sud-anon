@@ -17,8 +17,7 @@ public class JsonRecipeDatabase implements RecipeDatabase {
         try (Reader reader = new InputStreamReader(
                 Objects.requireNonNull(getClass().getClassLoader().getResourceAsStream("recipes.json")))) {
             Gson gson = new Gson();
-            Type recipeListType = new TypeToken<ArrayList<Recipe>>() {
-            }.getType();
+            Type recipeListType = new TypeToken<ArrayList<Recipe>>() {}.getType();
             return gson.fromJson(reader, recipeListType);
         } catch (Exception e) {
             e.printStackTrace();
