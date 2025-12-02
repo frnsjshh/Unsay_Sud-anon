@@ -37,7 +37,7 @@ Unsay_Sud-anon/
 
 ## 🔄 Data Flow
 
-The application follows the **Model-View-Controller (MVC)** pattern:
+The application follows the **Model-View-Controller (MVC)** pattern. For a detailed explanation of the architecture and logic, please refer to [data_flow.md](data_flow.md).
 
 1.  **Initialization**: On startup, `RecipeServlet` initializes `JsonRecipeDatabase`, which reads and parses `recipes.json` into a list of `Recipe` objects.
 2.  **Input (View -> Controller)**:

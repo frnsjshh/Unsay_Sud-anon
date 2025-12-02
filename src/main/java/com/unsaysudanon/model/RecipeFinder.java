@@ -23,19 +23,18 @@ public class RecipeFinder {
                     .map(String::trim)
                     .collect(Collectors.toList());
 
-            //checks how many userIngredients are in recipeIngredients
+            //counts how many userIngredients are in recipeIngredients
             //removes the ingredients that are not in the recipeIngredients
             long matchCount = normalizedUserIngredients.stream()
                     .filter(recipeIngredients::contains)
                     .count();
 
-            // Logic: If (Recipe.ingredients contains All or Most User.ingredients)
-            // All: matchCount == normalizedUserIngredients.size()
-            // Most: matchCount > normalizedUserIngredients.size() / 2.0
+
 
             if (normalizedUserIngredients.isEmpty())
                 continue; //skips one iteration
 
+            // Logic: If (Recipe.ingredients contains All or Most User.ingredients) then add to matches
             if (matchCount == normalizedUserIngredients.size() || matchCount > normalizedUserIngredients.size() / 2.0) {
                 matches.add(recipe);
             }

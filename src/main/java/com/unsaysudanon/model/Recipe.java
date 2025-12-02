@@ -11,12 +11,13 @@ public class Recipe {
     }
 
     public Recipe(String name, List<String> ingredients, List<String> instructions) {
-        this.name = name;
         this.ingredients = ingredients;
         this.instructions = instructions;
     }
 
-    //ENCAPSULATION
+    // OOP PRINCIPLE: ENCAPSULATION
+    // Fields are private to hide internal state and restrict direct access.
+    // Access is controlled via public getters and setters.
     public String getName() {
         return name;
     }

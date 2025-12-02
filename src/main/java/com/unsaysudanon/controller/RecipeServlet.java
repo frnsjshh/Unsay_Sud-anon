@@ -14,12 +14,17 @@ import java.util.List;
 import java.util.Optional;
 
 @WebServlet(name = "RecipeServlet", urlPatterns = { "/recipes" })
+// OOP PRINCIPLE: INHERITANCE
+// RecipeServlet inherits properties and methods from HttpServlet,
+// allowing it to function as a web component.
 public class RecipeServlet extends HttpServlet {
 
     private RecipeDatabase recipeDatabase;
     private RecipeFinder recipeFinder;
     private List<Recipe> allRecipes;
 
+    // OOP PRINCIPLE: POLYMORPHISM (Method Overriding)
+    // We override the init() method to provide custom initialization logic.
     @Override
     public void init() throws ServletException {
         super.init();
@@ -28,6 +33,9 @@ public class RecipeServlet extends HttpServlet {
         allRecipes = recipeDatabase.loadRecipes();
     }
 
+    // OOP PRINCIPLE: POLYMORPHISM (Method Overriding)
+    // We override doPost() to handle HTTP POST requests specifically for this
+    // servlet.
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String action = req.getParameter("action");
@@ -57,6 +65,9 @@ public class RecipeServlet extends HttpServlet {
         }
     }
 
+    // OOP PRINCIPLE: POLYMORPHISM (Method Overriding)
+    // We override doGet() to handle HTTP GET requests specifically for this
+    // servlet.
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String action = req.getParameter("action");

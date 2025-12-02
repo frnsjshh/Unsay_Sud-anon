@@ -10,6 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+// OOP PRINCIPLE: POLYMORPHISM (Interface Implementation)
+// This class provides a specific implementation of the RecipeDatabase interface.
+// It can be used interchangeably with any other implementation of RecipeDatabase.
 public class JsonRecipeDatabase implements RecipeDatabase {
 
     @Override
@@ -17,7 +20,8 @@ public class JsonRecipeDatabase implements RecipeDatabase {
         try (Reader reader = new InputStreamReader(
                 Objects.requireNonNull(getClass().getClassLoader().getResourceAsStream("recipes.json")))) {
             Gson gson = new Gson();
-            Type recipeListType = new TypeToken<ArrayList<Recipe>>() {}.getType();
+            Type recipeListType = new TypeToken<ArrayList<Recipe>>() {
+            }.getType();
             return gson.fromJson(reader, recipeListType);
         } catch (Exception e) {
             e.printStackTrace();

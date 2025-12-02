@@ -77,7 +77,7 @@ Used for state changes (modifying the session).
 -   **Action `search`**:
     -   Retrieves `userIngredients` from Session.
     -   Calls `RecipeFinder.findMatches()`.
-    -   **Matching Logic**: Checks if the recipe contains "All or Most" (>= 50%) of the user's ingredients.
+    -   **Matching Logic**: Checks if the recipe contains **Majority (> 50%)** of the user's ingredients.
     -   Stores the resulting list in Session as `matches`.
     -   Redirects to `results.jsp`.
 -   **Action `clear`**:
